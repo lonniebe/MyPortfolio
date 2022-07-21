@@ -1,6 +1,5 @@
 import React from 'react'
 import HeroImage from "../assets/HeroImage.png";
-import {MdOutlineKeyboardArrowRight} from 'react-icons/md'
 import {Link} from 'react-scroll'
 
 
@@ -23,14 +22,8 @@ const Home = () => {
                 <div className="flex flex-row ml-2 mr-2">
                     <Link to="portfolio" smooth duration={500} className='left-align group curser-pointer bg-gradient-to-r from-cyan-700 to-blue-600 text-white w-fit px-6 py-3 my-2 flex items-center rounder-md'>
                                 My Portfolio   
-                        <span className="group-hover:rotate-90">
-                            <MdOutlineKeyboardArrowRight size={25} className="ml-1"/>
-                        </span>
                     </Link>
-                    <a href='/CV.pdf' download className='ml-7 group curser-pointer bg-gradient-to-r from-cyan-700 to-blue-600 text-white w-fit px-6 py-3 my-2 flex items-center rounder-md'>Download CV
-                    <span className="group-hover:rotate-90">
-                            <MdOutlineKeyboardArrowRight size={25} className="ml-1"/>
-                        </span>
+                    <a href='/CV.pdf' download className='ml-8 group curser-pointer bg-gradient-to-r from-cyan-700 to-blue-600 text-white w-fit px-6 py-3 my-2 flex items-center rounder-md'>Download CV
                     </a>
                 </div>
             </div>
