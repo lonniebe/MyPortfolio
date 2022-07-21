@@ -12,7 +12,7 @@ const About = () => {
             <div>Hey ! 👋</div>
             <div>My Name is Lonnie Berry, </div>
             <div>I'm looking for my first challange as a Student/Intern Software Engineer.</div>
-            <div>Ungraduated BSc Computer Science in the 3nd year of study.</div>
+            <div>Ungraduated BSc Computer Science in the 3rd year of study.</div>
             <div>Experienced in Python, Java, Javascript, C#, C++, C, AWS.</div>
             <div>I'm a team player, Fast learner, and highly motivated to learn and improve.</div>
             <div>Always in process and fully motivated about learning and experiencing new areas and knowledge.</div>
