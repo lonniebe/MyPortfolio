@@ -6,9 +6,9 @@ import BAC from '../assets/portfolio/BAC.jpg'
 
 
 const Portfolio = () => {
-    const portfolios=[{id:1,src:JS},
-                      {id:2,src:ReviewsApp},
-                      {id:3,src:BAC},]
+    const portfolios=[{id:1,src:JS,link:"https://github.com/lonniebe/Social-Network-JS1.git"},
+                      {id:2,src:ReviewsApp,link:"https://github.com/lonniebe/Reviews-Web-Application.git"},
+                      {id:3,src:BAC,link:"https://github.com/lonniebe/Bulls-Cows-Game.git"}]
 
 
 
@@ -24,11 +24,14 @@ const Portfolio = () => {
             </div>
 
             <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-            {       portfolios.map(({id,src})=>(
-                    <div key={id}className={`shadow-md shadow-gray-600 rounded-lg`}>
+            {       portfolios.map(({id,src,link})=>(
+                    
+                    <div key={id}  className={`shadow-md shadow-gray-600 rounded-lg`}>
                     <img src={src} alt="" className='rounder-md duration-200 hover:scale-105'/>
                     <div className='flex items-center justify-center'>
+                        <a href={link}>
                         <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-90">Code</button>
+                        </a>
                     </div>
                     </div>
                     ))}

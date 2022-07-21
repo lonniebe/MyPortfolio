@@ -1,9 +1,6 @@
 
 import React from "react";
 
-import contactus from "../assets/contact-us.jpg";
-import { FaFacebook, FaGithub, FaTwitter, FaLinkedin } from "react-icons/fa";
-
 const Contact = () => {
         return (
             <div name="contant" className="w-full h-screen bg-gradient-to-b from-black to-gray-800 p-4 text-white">
